@@ -1,4 +1,4 @@
-# Twist Tinker 
+# Twist & Tinker 
 ![Twist Tinker Preview](images/preview.png)
 
 Responsive landing page for a fictional consulting company featuring a unique brand identity, humorous copywriting, and modern front-end design.

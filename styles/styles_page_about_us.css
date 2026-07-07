@@ -1,0 +1,130 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+
+  padding: 50px 25px;
+  background-color: #f5e7de;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  max-width: 1000px;
+  width: 100%;
+  padding: 30px 40px;
+  box-sizing: border-box;
+
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+
+  transition: transform 0.25s ease;
+}
+
+.about-card:hover {
+  box-shadow: 0 8px 20px rgb(0, 0, 0, 0.25);
+  transform: scale(1.03);
+  cursor: default;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-text blockquote {
+  color: #333;
+  max-width: 700px;
+  font-style: italic;
+}
+
+.about-quote-accent {
+  width: 25%;
+  margin-top: 30px;
+  
+  border-bottom: 3px solid #333;
+  opacity: 50%;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 950 / 347;
+  object-fit: cover;
+  border-radius: 10px;
+  }
+
+  .about-card figure .about-image {
+  aspect-ratio: 795 / 447;
+  box-shadow: 2px 2px 25px -4px rgba(0, 0, 0, 1);
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 470px;
+  text-align: center;
+}
+
+.about-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+}
+
+.about-header p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+.about-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 200;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 30px 15px;
+  }
+
+  .about-card {
+    padding: 20px 15px;
+    gap: 30px;
+  }
+
+  .about-text,
+  .about-header,
+  .about-figure {
+    padding: 0 10px;
+    max-width: 100%;
+  }
+
+  .about-header h2 {
+    font-size: 28px;
+  }
+
+  .about-image {
+    aspect-ratio: auto;
+  }
+}

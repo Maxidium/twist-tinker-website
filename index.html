@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twist & Tincker</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/scrollToSection.js" defer></script>
+</head>
+
+<body>
+    <div class="home" id="home">
+        <!-- Header -->
+        <header class="header">
+            <div class="branding">Twist &amp; Tinker</div>
+            <nav class="nav-items" aria-label="Основна навігація">
+                <ul>
+                    <li class="nav-item">Головна</li>
+                    <li><a href="#services" class="nav-item">Наші послуги</a></li>
+                    <li><a href="#reviews" class="nav-item">Відгуки</a></li>
+                    <li><a href="#contact" class="nav-item">Контактна форма</a></li>
+                    <li><a href="pages/page_about_us.html" class="nav-item">Про нас</a></li>
+                </ul>
+                <div class="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-left">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Ваші проблеми — наші деталі.
+                        <br />
+                        Там, де інші здаються — ми тільки починаємо.
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        Twist &amp; Tinker — інженерні рішення нестандартного типу для бізнесу і не тільки
+                    </h2>
+                </div>
+
+                <div class="hero-buttons">
+                    <button class="hero-btn-a" onclick="scrollToSection('services')">
+                        <div class="hero-btn-a-text">🔧 Обрати наявні послуги</div>
+                    </button>
+                    <button class="hero-btn-b" onclick="scrollToSection('contact')">
+                        <div class="hero-btn-b-text">🔧 Замовити власну послугу</div>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img class="img-petro-coffee" src="images/img-petro-coffee.png">
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services" id="services">
+            <h2 class="section-title">Наші послуги</h2>
+            <div class="services-list">
+
+                <div class="item-card">
+                    <div class="item-card-title">Інженерна імпровізація</div>
+                    <div class="item-card-subtitle">
+                        Створюємо рішення там, де інші тільки знизують плечима. Ламається —
+                        лагодимо, навіть якщо це концепція часу
+                    </div>
+                    <button class="item-card-btn" onclick="scrollToSection('contact')">Замовити</button>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card-title">Оптимізація через дезорганізацію</div>
+                    <div class="item-card-subtitle">
+                        Безлад — це лише система без назви.
+                        <br />
+                        Системи, які здаються неефективними, можна змусити працювати
+                    </div>
+                    <button class="item-card-btn" onclick="scrollToSection('contact')">Замовити</button>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card-title">Автоматизація процесів</div>
+                    <div class="item-card-subtitle">
+                        Рутина зжирає час.
+                        <br />
+                        Ми її приборкаємо, щоб ви могли нарешті взяти відпустку (або хоча б
+                        обід)
+                    </div>
+                    <button class="item-card-btn" onclick="scrollToSection('contact')">Замовити</button>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card-title">Аналіз та прогнозування</div>
+                    <div class="item-card-subtitle">
+                        Погляд зсередини, аналітика й прогнози — щоб ви не просто реагували, а
+                        випереджали
+                    </div>
+                    <button class="item-card-btn" onclick="scrollToSection('contact')">Замовити</button>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card-title">Архітектура рішення</div>
+                    <div class="item-card-subtitle">
+                        Проєктуємо рішення, які працюють сьогодні, виживають завтра і не
+                        ламаються після понеділка
+                    </div>
+                    <button class="item-card-btn" onclick="scrollToSection('contact')">Замовити</button>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card-title">Консультації та підтримка</div>
+                    <div class="item-card-subtitle">
+                        Ми не лише консультуємо — налаштовуємо, підтягуємо й тримаємо ваші
+                        процеси під контролем
+                    </div>
+                    <button class="item-card-btn" onclick="scrollToSection('contact')">Замовити</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Review -->
+        <section class="reviews" id="reviews">
+            <h2 class="section-title">Відгуки клієнтів</h2>
+
+            <div class="review-block">
+                <div class="review-body">
+                    <div class="review-accent"></div>
+                    <div class="review-text">
+                        <p class="review-text-quote">
+                            &quot;Тепер мій офіс сповнений турелів! Працювати стало набагато
+                            спокійніше!&quot;
+                        </p>
+                        <p class="review-text-author">— CEO стартапу з продажу повітря</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-block">
+                <div class="review-body">
+                    <div class="review-accent"></div>
+                    <div class="review-text">
+                        <p class="review-text-quote">
+                            &quot;Не думав, що 5 кг цвяхів можуть так змінити моє життя!&quot;
+                        </p>
+                        <p class="review-text-author">— Клієнт з нервовим сміхом</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-block">
+                <div class="review-body">
+                    <div class="review-accent"></div>
+                    <div class="review-text">
+                        <p class="review-text-quote">
+                            &quot;Коли я попросив терміново — вони просто посміхнулись. Я теж.&quot;
+                        </p>
+                        <p class="review-text-author">— Підприємець у стресі</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <form class="contact-form" id="contact">
+            <div class="form-wrapper">
+                <h2 class="form-title">Форма зворотнього зв’язку</h2>
+                <div class="form-fields">
+                    <input type="text" name="name" placeholder="Ваше ім’я" class="form-control" required>
+                    <input type="email" name="email" placeholder="Ваш email" class="form-control" required>
+                    <textarea name="message" placeholder="Опишіть свою проблему..." class="form-control form-textarea"
+                        required></textarea>
+                    <select name="service" class="form-control">
+                        <option disabled selected>Оберіть послугу</option>
+                        <option>🛠️ Інженерна імпровізація</option>
+                        <option>🔄 Оптимізація через дезорганізацію</option>
+                        <option>🤖 Автоматизація процесів</option>
+                        <option>📊 Аналіз та прогнозування</option>
+                        <option>🏗️ Архітектура рішення</option>
+                        <option>💬 Консультації та підтримка</option>
+                        <option disabled>Персональна послуга</option>
+                        <option>🌟 Екслюзивна підтримка</option>
+                    </select>
+
+                    <button type="submit" class="form-btn">Надіслати виклик інженеру</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="web-info">
+                <div class="author">
+                    <p class="footer-muted-text">Branding and Designing by</p>
+                    <p class="footer-accent-text">Les Maitres Team</p>
+                </div>
+                <a href="#home" class="back-to-top footer-muted-text">ВГОРУ</a>
+                <div class="copyright">
+                    <p class="footer-muted-text">© 2025 Twist & Tinker</p>
+                    <p class="footer-accent-text">Make. Break. Rebuild.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

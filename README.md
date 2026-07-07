@@ -1,5 +1,5 @@
 # Twist Tinker 
-![Twist Tinker Preview](assets/preview.png)
+![Twist Tinker Preview](images/preview.png)
 
 Responsive landing page for a fictional consulting company, developed as an educational front-end project.
 
